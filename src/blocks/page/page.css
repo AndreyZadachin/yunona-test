@@ -1,0 +1,19 @@
+@import url('./__main/page__main.css');
+@import url('./__nav/page__nav.css');
+
+.page {
+  font-family: 'TT Norms', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1400px;
+  margin: 0 auto;
+}

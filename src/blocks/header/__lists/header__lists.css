@@ -1,0 +1,15 @@
+.header__lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1080px) {
+  .header__lists {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 610px) {
+  .header__lists {
+    margin-top: 10px;
+  }
+}

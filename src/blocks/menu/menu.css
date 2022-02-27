@@ -1,0 +1,33 @@
+@import url('./__logo/menu__logo.css');
+@import url('./__lists/nav__lists.css');
+@import url('./__item/nav__item.css');
+@import url('./__link/nav__link.css');
+
+.menu {
+  height: 122px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-right: -260px;
+  margin-left: -260px;
+}
+
+@media screen and (max-width: 1919px) {
+  .menu {
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .menu {
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}

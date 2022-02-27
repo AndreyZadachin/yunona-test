@@ -1,0 +1,18 @@
+.menu__logo {
+  width: 246px;
+  height: 62px;
+  margin-right: 109px;
+}
+
+@media screen and (max-width: 1919px) {
+  .menu__logo {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .menu__logo {
+    margin-right: 30px;
+    width: 123px;
+    height: 31px;
+  }
+}

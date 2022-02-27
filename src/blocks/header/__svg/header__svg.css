@@ -1,0 +1,9 @@
+.header__svg {
+  margin-right: 9px;
+}
+
+@media screen and (max-width: 610px) {
+  .header__svg {
+    margin-right: 3px;
+  }
+}

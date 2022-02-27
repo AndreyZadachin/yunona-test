@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="AndreyZadachin" />
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.index.css %>" />
+    <link rel="shortcut icon" type="image/png" href="<%=require('./images/favicon.png').default%>" />
+    <title>Алгоритм Прибор</title>
+  </head>
+  <body class="body">
+    <div class="page">
+      <div class="page__container">
+        <header class="header page__header">
+          <ul class="header__lists">
+            <li class="header__item list">
+              <svg class="header__svg" width="10" height="12" viewBox="0 0 10 12" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.57031 0C2.05031 0 0 2.05031 0 4.57031C0 5.56758 0.315 6.51516 0.911719 7.31016L4.28859 11.8582C4.29703 11.8692 4.30992 11.8735 4.3193 11.8833C4.48805 12.064 4.73156 12.0185 4.8518 11.8582C5.82422 10.5607 7.60664 8.1375 8.29195 7.22344C8.29195 7.22344 8.29219 7.22273 8.29242 7.22227L8.29664 7.21664C8.84883 6.44086 9.14063 5.52586 9.14063 4.57031C9.14063 2.05031 7.09031 0 4.57031 0ZM4.57031 7.03594C3.21352 7.03594 2.10469 5.92711 2.10469 4.57031C2.10469 3.21352 3.21352 2.10469 4.57031 2.10469C5.92711 2.10469 7.03594 3.21352 7.03594 4.57031C7.03594 5.92711 5.92711 7.03594 4.57031 7.03594Z"
+                  fill="#36A3EB"
+                />
+              </svg>
+              <address class="header__address">Воронеж, ул. Циолковского, д. 8, пом 1/1</address>
+            </li>
+            <li class="header__item list">
+              <svg class="header__svg" width="11" height="12" viewBox="0 0 11 12" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.76798 8.21476C9.05498 7.60493 8.33139 7.23554 7.62714 7.84444L7.20662 8.21246C6.89894 8.4796 6.32689 9.72781 4.11511 7.18349C1.9038 4.64239 3.21972 4.24674 3.52786 3.9819L3.95068 3.61343C4.65125 3.00314 4.38686 2.23487 3.88159 1.44403L3.57668 0.965011C3.06911 0.176014 2.51639 -0.342154 1.81399 0.267211L1.43446 0.598839C1.12402 0.824991 0.256259 1.5601 0.045768 2.95662C-0.207559 4.63226 0.591572 6.55109 2.42243 8.65647C4.25099 10.7628 6.04132 11.8207 7.73722 11.8023C9.14664 11.7871 9.99782 11.0308 10.264 10.7559L10.645 10.4238C11.3455 9.81486 10.9103 9.1949 10.1968 8.58369L9.76798 8.21476Z"
+                  fill="#36A3EB"
+                />
+              </svg>
+
+              +7 (473) 222-12-11
+            </li>
+            <li class="header__item list">
+              <svg class="header__svg" width="11" height="11" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 3.02472V13.2101L4.61534 7.17472L0 3.02472Z" fill="#36A3EB" />
+                <path d="M11.3847 7.17416L16 13.2102V3.02484L11.3847 7.17416Z" fill="#36A3EB" />
+                <path
+                  d="M8.78506 7.71867L15.1457 2H0.854401L7.21174 7.71601C7.6624 8.12536 8.33771 8.12536 8.78506 7.71867Z"
+                  fill="#36A3EB"
+                />
+                <path
+                  d="M9.67907 8.70729C9.20172 9.14195 8.60172 9.35929 8.00106 9.35929C7.39972 9.35929 6.79772 9.14129 6.31772 8.70463L5.61037 8.06863L1.0744 13.9999H14.9258L10.3897 8.0686L9.67907 8.70729Z"
+                  fill="#36A3EB"
+                />
+              </svg>
+              <a href="#" class="header__link link">algoritm_pribor@mail.ru</a>
+            </li>
+          </ul>
+          <button class="header__button button">обратная связь</button>
+        </header>
+        <main class="main page__main">
+          <section class="menu page__nav">
+            <a href="#" class="menu__link link"
+              ><img class="menu__logo" alt="Логотип организации" src="<%=require('./images/logo.png').default%>"
+            /></a>
+            <nav class="nav">
+              <ul class="nav__lists list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link_active link">Продукция</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link link">О компании</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link link">Покупателям</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link link">Сервис и поддержка</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link link">Оплата и доставка</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section class="products">
+            <div class="products__open-nav">
+              <a href="#" class="products__link link">Главная</a>
+              <span class="products__entity">&nbsp;&ndash;&nbsp;</span>
+              <a href="#" class="products__link link">Продукция</a>
+              <span class="products__entity">&nbsp;&ndash;&nbsp;</span>
+              <a class="products__link products__link_active link">Температура</a>
+            </div>
+            <h1 class="products__title">Температура</h1>
+            <div class="products__wrapper">
+              <div class="products__accordion">
+                <button class="accordion accordion__active">Температура</button>
+                <ul class="accordion__panel">
+                  <li class="accordion__item list">
+                    <a class="accordion__link link" href="#">Датчики температуры (термопреобразователи)</a>
+                  </li>
+                  <li class="accordion__item list"><a class="accordion__link link" href="#">Механические термометры</a></li>
+                  <li class="accordion__item list"><a class="accordion__link link" href="#">Пирометры</a></li>
+                  <li class="accordion__item list">
+                    <a class="accordion__link link" href="#">Арматура для термометров и датчиков температуры</a>
+                  </li>
+                </ul>
+
+                <button class="accordion">Давление</button>
+                <ul class="accordion__panel">
+                  <li class="accordion__item list"><a class="accordion__link link" href="#">Lorem ipsum...</a></li>
+                  <li class="accordion__item list"><a class="accordion__link link" href="#">Lorem ipsum...</a></li>
+                  <li class="accordion__item list"><a class="accordion__link link" href="#">Lorem ipsum...</a></li>
+                </ul>
+
+                <button class="accordion">Расход</button>
+                <ul class="accordion__panel">
+                  <li class="accordion__item list"><a class="accordion__link link" href="#">Lorem ipsum...</a></li>
+                  <li class="accordion__item list"><a class="accordion__link link" href="#">Lorem ipsum...</a></li>
+                </ul>
+                <button class="accordion">Функциональная аппаратура</button>
+                <ul class="accordion__panel">
+                  <li class="accordion__item list"><a class="accordion__link link" href="#">Lorem ipsum...</a></li>
+                </ul>
+              </div>
+              <div class="products__items">
+                <a href="#" class="link">
+                  <div class="products__item">
+                    <img class="products__img" alt="Фотография товара" src="<%=require('./images/1.jpg').default%>" />
+                    <p class="products__text">Датчики температуры (термопреобразователи)</p>
+                  </div>
+                </a>
+                <a href="#" class="link">
+                  <div class="products__item">
+                    <img class="products__img" alt="Фотография товара" src="<%=require('./images/2.jpg').default%>" />
+                    <p class="products__text">Механические термометры</p>
+                  </div>
+                </a>
+                <a href="#" class="link">
+                  <div class="products__item">
+                    <img class="products__img" alt="Фотография товара" src="<%=require('./images/3.jpg').default%>" />
+                    <p class="products__text">Пирометры</p>
+                  </div>
+                </a>
+                <a href="#" class="link">
+                  <div class="products__item">
+                    <img class="products__img" alt="Фотография товара" src="<%=require('./images/4.jpg').default%>" />
+                    <p class="products__text">Арматура для термометров и датчиков температуры</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="help">
+            <div class="help__wrapper">
+              <h2 class="help__title">Нужна помощь? Возникли вопросы?</h2>
+              <p class="help__subtitle">Наши менеджеры помогут вам подобрать решения и рассчитать их стоимость</p>
+            </div>
+            <form class="form">
+              <div class="form___container">
+                <div class="form__input-wrapper">
+                  <input class="form__input" type="text" placeholder="ФИО" />
+                  <span class="form__icon"
+                    ><svg class="form__icon-svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8.00109 0C5.71536 0 3.84689 1.86847 3.84689 4.1542C3.84689 6.43993 5.71536 8.3084 8.00109 8.3084C10.2868 8.3084 12.1553 6.43993 12.1553 4.1542C12.1553 1.86847 10.2868 0 8.00109 0Z"
+                        fill="#36A3EB"
+                      />
+                      <path
+                        d="M15.1304 11.6281C15.0215 11.356 14.8764 11.102 14.7132 10.8662C13.8787 9.63262 12.5907 8.81631 11.1395 8.61676C10.9581 8.59863 10.7585 8.63488 10.6134 8.74374C9.85149 9.3061 8.94448 9.59634 8.00114 9.59634C7.05781 9.59634 6.1508 9.3061 5.38889 8.74374C5.24375 8.63488 5.0442 8.58047 4.86281 8.61676C3.41156 8.81631 2.10545 9.63262 1.28913 10.8662C1.12587 11.102 0.980727 11.3742 0.871907 11.6281C0.817497 11.737 0.835622 11.8639 0.890032 11.9728C1.03517 12.2268 1.21656 12.4807 1.37982 12.6984C1.63378 13.0431 1.9059 13.3515 2.2143 13.6417C2.46826 13.8957 2.7585 14.1315 3.04878 14.3673C4.48187 15.4377 6.20524 16 7.98302 16C9.7608 16 11.4842 15.4376 12.9173 14.3673C13.2075 14.1497 13.4977 13.8957 13.7517 13.6417C14.042 13.3515 14.3322 13.0431 14.5862 12.6984C14.7676 12.4626 14.9309 12.2268 15.076 11.9728C15.1667 11.8639 15.1848 11.7369 15.1304 11.6281Z"
+                        fill="#36A3EB"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="form__input-wrapper">
+                  <input class="form__input" type="text" placeholder="E-mail" />
+                  <span class="form__icon"
+                    ><svg class="form__icon-svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 3.02472V13.2101L4.61534 7.17472L0 3.02472Z" fill="#36A3EB" />
+                      <path d="M11.3847 7.17416L16 13.2102V3.02484L11.3847 7.17416Z" fill="#36A3EB" />
+                      <path
+                        d="M8.78506 7.71867L15.1457 2H0.854401L7.21174 7.71601C7.6624 8.12536 8.33771 8.12536 8.78506 7.71867Z"
+                        fill="#36A3EB"
+                      />
+                      <path
+                        d="M9.67907 8.70729C9.20172 9.14195 8.60172 9.35929 8.00106 9.35929C7.39972 9.35929 6.79772 9.14129 6.31772 8.70463L5.61037 8.06863L1.0744 13.9999H14.9258L10.3897 8.0686L9.67907 8.70729Z"
+                        fill="#36A3EB"
+                      /></svg
+                  ></span>
+                </div>
+                <div class="form__input-wrapper">
+                  <input id="checkbox" class="form__check" type="checkbox" />
+                  <label for="checkbox" class="form__text"
+                    >Я соглашаюсь с&nbsp;<a class="form__link link">политикой обработки персональных данных</a></label
+                  >
+                </div>
+              </div>
+              <div class="form___container">
+                <div class="form__input-wrapper">
+                  <input class="form__input" type="text" placeholder="Телефон" />
+                  <span class="form__icon"
+                    ><svg class="form__icon-svg" width="15" height="16" viewBox="0 0 15 16" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M13.2418 11.1362C12.2753 10.3095 11.2943 9.80877 10.3396 10.6342L9.76957 11.1331C9.35247 11.4953 8.57697 13.1874 5.5786 9.73821C2.58087 6.2934 4.36477 5.75705 4.7825 5.39802L5.35569 4.8985C6.3054 4.07117 5.947 3.02967 5.26203 1.95758L4.84868 1.30821C4.1606 0.238611 3.41132 -0.463837 2.45911 0.362242L1.94461 0.811809C1.52376 1.11839 0.347395 2.11493 0.0620449 4.00811C-0.281374 6.27967 0.801957 8.88091 3.28394 11.735C5.7628 14.5904 8.18984 16.0247 10.4889 15.9997C12.3995 15.9791 13.5534 14.9538 13.9143 14.581L14.4307 14.1309C15.3804 13.3054 14.7904 12.465 13.8232 11.6364L13.2418 11.1362Z"
+                        fill="#36A3EB"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="form__input-wrapper">
+                  <input class="form__input" type="text" placeholder="Сообщение" />
+                  <span class="form__icon"
+                    ><svg class="form__icon-svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M10.4123 3.59487C9.50902 1.75051 7.61953 0.531128 5.50011 0.531128C2.46746 0.531128 0.00024082 2.98435 0.00024082 5.99975C0.00024082 6.81923 0.176174 7.60468 0.523416 8.33701L0.00933436 10.9077C-0.0561016 11.235 0.232579 11.5242 0.559884 11.4595L3.16229 10.9449C3.51269 11.1112 3.87518 11.2376 4.24764 11.3247C3.41275 7.37034 6.41006 3.65855 10.4123 3.59487V3.59487Z"
+                        fill="#36A3EB"
+                      />
+                      <path
+                        d="M15.4767 12.3369C15.5665 12.1475 15.6446 11.9545 15.7114 11.7584H15.6942C16.8645 8.32355 14.4035 4.71351 10.7704 4.53773C10.7703 4.53755 10.7703 4.53736 10.7702 4.53717C7.64419 4.39311 5.047 6.89605 5.047 9.99967C5.047 13.0125 7.49572 15.4638 10.5076 15.4682C11.3245 15.4671 12.1076 15.2912 12.8378 14.9449C15.6879 15.5084 15.4657 15.4683 15.5311 15.4683C15.8273 15.4683 16.0486 15.1969 15.9908 14.9076L15.4767 12.3369Z"
+                        fill="#36A3EB"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <input class="form__button button" type="submit" value="Отправить заявку" />
+              </div>
+            </form>
+          </section>
+        </main>
+
+        <footer class="footer">
+          <div class="footer__wrapper">
+            <p class="footer__copyright">&copy; ООО «Алгоритм-Прибор»</p>
+            <p class="footer__copyright">Все права защищены, 2008-2021</p>
+          </div>
+          <a class="footer__link link" href="#">Политика конфиденциальности</a>
+          <p class="footer__text">Разработка <span class="footer__company">ЮНОНА</span></p>
+        </footer>
+      </div>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.index.entry %>"></script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+.nav__link_active {
+  border-bottom: 2px solid #36a3eb;
+  padding-bottom: 52px;
+}

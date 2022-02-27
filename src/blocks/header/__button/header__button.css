@@ -1,0 +1,40 @@
+.header__button {
+  width: 246px;
+  height: 60px;
+  background: #36a3eb;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .header__button {
+    width: 123px;
+    height: 30px;
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .header__button {
+    width: 62px;
+    height: 15px;
+    font-size: 4px;
+    line-height: 5px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header__button {
+    width: 62px;
+    height: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__button {
+    width: 62px;
+    height: 15px;
+    font-size: 4px;
+  }
+}
